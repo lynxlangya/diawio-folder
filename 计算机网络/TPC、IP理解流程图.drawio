@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T06:13:16.600Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="ZLyKDB4wWR4mBpHx4fWR" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-06T06:20:47.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="h8zyvXKqEQ_UOneiq10M" version="15.7.0" type="github">
   <diagram id="5Al7iAfqi5jG3tsOU_jC" name="第 1 页">
-    <mxGraphModel dx="3876" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4853" dy="2647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,6 +79,11 @@
         </mxCell>
         <mxCell id="dHwk8FRFukmcRc0aKL5j-26" value="数据传输" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="-305" y="-510" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yh32-tH8GUVyFst3ZP8g-53" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=24;fontColor=#666666;strokeColor=#0000FF;strokeWidth=2;" edge="1" parent="1" source="dHwk8FRFukmcRc0aKL5j-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="-210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="dHwk8FRFukmcRc0aKL5j-28" value="四次挥手" style="whiteSpace=wrap;html=1;fontSize=24;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="-67.5" y="-510" width="137.5" height="60" as="geometry" />
