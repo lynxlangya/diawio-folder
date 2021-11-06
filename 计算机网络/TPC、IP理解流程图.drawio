@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T11:40:05.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="3bXcxQjHIoBSrRGHaYnL" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-06T11:48:43.687Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="_KrBQa05y3NOCPj9rhpD" version="15.7.0" type="github">
   <diagram id="5Al7iAfqi5jG3tsOU_jC" name="第 1 页">
     <mxGraphModel dx="4858" dy="2451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -137,16 +137,16 @@
           <mxGeometry x="-2441.5" y="710" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=25;fontColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="-1853" y="1030" width="120" height="130" as="geometry" />
+          <mxGeometry x="-1940" y="790" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-19" value="收发队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=25;fontColor=#666666;sketch=0;shadow=0;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1853" y="1110" width="120" height="40" as="geometry" />
+          <mxGeometry x="-1940" y="870" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TIWXYXnFEG9rf7qkhGSx-8" value="读" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" parent="1" vertex="1">
-          <mxGeometry x="-1838" y="1020" width="45" height="90" as="geometry" />
+          <mxGeometry x="-1925" y="780" width="45" height="90" as="geometry" />
         </mxCell>
         <mxCell id="TIWXYXnFEG9rf7qkhGSx-9" value="写" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" parent="1" vertex="1">
-          <mxGeometry x="-1788" y="1020" width="40" height="90" as="geometry" />
+          <mxGeometry x="-1875" y="780" width="40" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-23" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;客户端自由&lt;br&gt;分配端口号&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="-2441.5" y="780" width="140" height="60" as="geometry" />
@@ -538,6 +538,32 @@
         </mxCell>
         <mxCell id="ed5uldD0tUQKsUx8vlnY-2" value="被动打开" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-1232" y="750" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ed5uldD0tUQKsUx8vlnY-3" value="默认：Closed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#A50040;fillColor=#d80073;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1812" y="520" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ed5uldD0tUQKsUx8vlnY-4" value="默认：Listen" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#A50040;fillColor=#d80073;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1247" y="520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ed5uldD0tUQKsUx8vlnY-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=271.5;exitDy=170;exitPerimeter=0;fontSize=18;strokeColor=#FF0000;strokeWidth=3;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="ed5uldD0tUQKsUx8vlnY-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1460" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ed5uldD0tUQKsUx8vlnY-5" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=18;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1971.5" y="110" width="271.5" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ed5uldD0tUQKsUx8vlnY-7" value="&lt;span&gt;SYN：连接请求/接受 报文段&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-1965.5" y="140" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ed5uldD0tUQKsUx8vlnY-8" value="&lt;span&gt;seq：发送的第一个字节的序号&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-1965.75" y="190" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ed5uldD0tUQKsUx8vlnY-9" value="ACK：确认报文段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-1971.5" y="240" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ed5uldD0tUQKsUx8vlnY-11" value="ack：确认号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-1965.5" y="290" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
