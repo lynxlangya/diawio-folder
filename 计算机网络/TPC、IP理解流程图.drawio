@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T16:02:47.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="3utMf4Zz3kfcUiFqNo0P" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-06T16:20:29.233Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="A7xYw0tlHUMS8-_AePV0" version="15.7.0" type="github">
   <diagram id="5Al7iAfqi5jG3tsOU_jC" name="第 1 页">
-    <mxGraphModel dx="4858" dy="2451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4518" dy="2268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -170,7 +170,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yh32-tH8GUVyFst3ZP8g-33" value="ACK=1,seq=x+1,ack=y+1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=24;fontColor=#666666;strokeColor=#0000FF;strokeWidth=2;" parent="1" source="Yh32-tH8GUVyFst3ZP8g-27" target="Yh32-tH8GUVyFst3ZP8g-28" edge="1">
+        <mxCell id="Yh32-tH8GUVyFst3ZP8g-33" value="ACK=1,seq=x+1,ack=z+1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=24;fontColor=#666666;strokeColor=#0000FF;strokeWidth=2;" parent="1" source="Yh32-tH8GUVyFst3ZP8g-27" target="Yh32-tH8GUVyFst3ZP8g-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-70" y="940" />
@@ -184,13 +184,16 @@
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-30" value="ACK=1,seq=y,ack=x+1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=24;fontColor=#666666;strokeColor=#0000FF;strokeWidth=2;" parent="1" source="Yh32-tH8GUVyFst3ZP8g-28" target="Yh32-tH8GUVyFst3ZP8g-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yh32-tH8GUVyFst3ZP8g-32" value="FIN=1,ACK=1,seq=y,ack=x+1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=24;fontColor=#666666;strokeColor=#0000FF;strokeWidth=2;" parent="1" source="Yh32-tH8GUVyFst3ZP8g-28" target="Yh32-tH8GUVyFst3ZP8g-27" edge="1">
+        <mxCell id="Yh32-tH8GUVyFst3ZP8g-32" value="FIN=1,ACK=1,seq=z,ack=x+1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=24;fontColor=#666666;strokeColor=#0000FF;strokeWidth=2;" parent="1" source="Yh32-tH8GUVyFst3ZP8g-28" target="Yh32-tH8GUVyFst3ZP8g-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="490" y="795" />
               <mxPoint x="490" y="795" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ed5uldD0tUQKsUx8vlnY-34" value="&lt;font style=&quot;font-size: 18px ; background-color: rgb(0 , 153 , 77)&quot; color=&quot;#ffffff&quot;&gt;确认关闭之前，可能会有数据传输&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#000000;startArrow=classic;startFill=1;strokeColor=#009900;strokeWidth=2;" edge="1" parent="1" source="Yh32-tH8GUVyFst3ZP8g-28" target="Yh32-tH8GUVyFst3ZP8g-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-28" value="Server" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=24;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="530" y="510" width="120" height="380" as="geometry" />
@@ -581,7 +584,7 @@
         <mxCell id="ed5uldD0tUQKsUx8vlnY-14" value="&lt;font color=&quot;#009900&quot;&gt;x、y&lt;/font&gt; 为 ISN&lt;br&gt;ISN 是动态生成的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;fontSize=18;gradientColor=#ea6b66;" vertex="1" parent="1">
           <mxGeometry x="-1441.5" y="570" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ed5uldD0tUQKsUx8vlnY-21" value="&lt;font color=&quot;#009900&quot;&gt;x、y&lt;/font&gt; 为 ISN&lt;br&gt;ISN 是动态生成的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;fontSize=18;gradientColor=#ea6b66;" vertex="1" parent="1">
+        <mxCell id="ed5uldD0tUQKsUx8vlnY-21" value="&lt;font color=&quot;#009900&quot;&gt;x、y、z&lt;/font&gt; 为 ISN&lt;br&gt;ISN 是动态生成的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;fontSize=18;gradientColor=#ea6b66;" vertex="1" parent="1">
           <mxGeometry x="334" y="520" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ed5uldD0tUQKsUx8vlnY-22" value="等待2MSL" style="whiteSpace=wrap;html=1;fontSize=18;fontColor=#009900;" vertex="1" parent="1">
