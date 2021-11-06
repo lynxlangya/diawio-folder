@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T03:28:25.494Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="rGzRnTujVYSJOPbjHrde" version="15.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-06T03:36:46.572Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="Irhq3sXWseBbM4QWvfyD" version="15.5.1" type="github">
   <diagram id="5Al7iAfqi5jG3tsOU_jC" name="第 1 页">
-    <mxGraphModel dx="2222" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2222" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,6 +44,39 @@
               <mxPoint x="740" y="140" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dHwk8FRFukmcRc0aKL5j-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;" edge="1" parent="1" source="dHwk8FRFukmcRc0aKL5j-19" target="dHwk8FRFukmcRc0aKL5j-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dHwk8FRFukmcRc0aKL5j-19" value="应用层协议" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="-750" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dHwk8FRFukmcRc0aKL5j-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;" edge="1" parent="1" source="dHwk8FRFukmcRc0aKL5j-20" target="dHwk8FRFukmcRc0aKL5j-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dHwk8FRFukmcRc0aKL5j-20" value="传输控制层&lt;br&gt;TCP UDP" style="whiteSpace=wrap;html=1;fontSize=24;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="-735" y="-560" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dHwk8FRFukmcRc0aKL5j-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;fontColor=#FF0000;" edge="1" parent="1" source="dHwk8FRFukmcRc0aKL5j-22" target="dHwk8FRFukmcRc0aKL5j-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dHwk8FRFukmcRc0aKL5j-22" value="TCP&lt;br&gt;面向&lt;font color=&quot;#ff3333&quot;&gt;连接&lt;/font&gt;的、&lt;font color=&quot;#ff0000&quot;&gt;可靠&lt;/font&gt;的" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-560" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dHwk8FRFukmcRc0aKL5j-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;fontColor=#FF0000;" edge="1" parent="1" source="dHwk8FRFukmcRc0aKL5j-24" target="dHwk8FRFukmcRc0aKL5j-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dHwk8FRFukmcRc0aKL5j-24" value="三次握手" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="-380" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dHwk8FRFukmcRc0aKL5j-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;fontColor=#FF0000;" edge="1" parent="1" source="dHwk8FRFukmcRc0aKL5j-26" target="dHwk8FRFukmcRc0aKL5j-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dHwk8FRFukmcRc0aKL5j-26" value="数据传输" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=24;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="-305" y="-370" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dHwk8FRFukmcRc0aKL5j-28" value="四次挥手" style="whiteSpace=wrap;html=1;fontSize=24;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="-67.5" y="-370" width="137.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
