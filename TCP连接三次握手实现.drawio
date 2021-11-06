@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T03:21:45.344Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="tl0JgAXg8ZA7YOMvAPPP" version="15.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-06T03:27:20.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.38" etag="Ai6fcdf7--yY2i3220Ds" version="15.5.1" type="github">
   <diagram id="5Al7iAfqi5jG3tsOU_jC" name="第 1 页">
-    <mxGraphModel dx="1186" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2222" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,6 +27,23 @@
         </mxCell>
         <mxCell id="dHwk8FRFukmcRc0aKL5j-12" value="3 - 客户端回复" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="329" y="635" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dHwk8FRFukmcRc0aKL5j-14" value="开辟资源" style="ellipse;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dHwk8FRFukmcRc0aKL5j-15" value="开辟资源" style="ellipse;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="790" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dHwk8FRFukmcRc0aKL5j-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=24;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="dHwk8FRFukmcRc0aKL5j-14" target="dHwk8FRFukmcRc0aKL5j-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="480" as="sourcePoint" />
+            <mxPoint x="370" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="100" />
+              <mxPoint x="430" y="80" />
+              <mxPoint x="730" y="110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
