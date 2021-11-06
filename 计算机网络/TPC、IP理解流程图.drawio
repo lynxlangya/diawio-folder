@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T11:48:43.687Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="_KrBQa05y3NOCPj9rhpD" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-06T14:10:11.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="M3h-merz41QBcR0_qyG8" version="15.7.0" type="github">
   <diagram id="5Al7iAfqi5jG3tsOU_jC" name="第 1 页">
-    <mxGraphModel dx="4858" dy="2451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3907" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -564,6 +564,9 @@
         </mxCell>
         <mxCell id="ed5uldD0tUQKsUx8vlnY-11" value="ack：确认号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-1965.5" y="290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ed5uldD0tUQKsUx8vlnY-14" value="&lt;font color=&quot;#009900&quot;&gt;x、y&lt;/font&gt; 为 ISN&lt;br&gt;ISN 是动态生成的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;fontSize=18;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="-1441.5" y="570" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
