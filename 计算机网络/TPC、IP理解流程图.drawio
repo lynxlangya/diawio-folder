@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T09:00:17.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44" etag="07Rm-qFDiD2-3c6t12iW" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-16T08:09:04.264Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="24wHH__pFdVU3_8tBFqp" version="15.7.3" type="github">
   <diagram id="5Al7iAfqi5jG3tsOU_jC" name="第 1 页">
     <mxGraphModel dx="4853" dy="2647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -364,7 +364,7 @@
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-116" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=36;fontColor=#666666;strokeColor=#666666;strokeWidth=2;" parent="1" source="Yh32-tH8GUVyFst3ZP8g-113" target="Yh32-tH8GUVyFst3ZP8g-115" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VgVpmV9j_B4Aruj4bug5-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;fontColor=#FF8000;curved=1;strokeWidth=4;strokeColor=#FF0000;dashed=1;" edge="1" parent="1" source="Yh32-tH8GUVyFst3ZP8g-113" target="VgVpmV9j_B4Aruj4bug5-3">
+        <mxCell id="VgVpmV9j_B4Aruj4bug5-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;fontColor=#FF8000;curved=1;strokeWidth=4;strokeColor=#FF0000;dashed=1;" parent="1" source="Yh32-tH8GUVyFst3ZP8g-113" target="VgVpmV9j_B4Aruj4bug5-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-113" value="传输控制层&lt;br&gt;TCP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#B20000;fillColor=#e51400;fontSize=36;fontColor=#ffffff;" parent="1" vertex="1">
@@ -373,7 +373,7 @@
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-118" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=36;fontColor=#666666;strokeColor=#666666;strokeWidth=2;" parent="1" source="Yh32-tH8GUVyFst3ZP8g-115" target="Yh32-tH8GUVyFst3ZP8g-117" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VgVpmV9j_B4Aruj4bug5-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeColor=#FF8000;strokeWidth=7;dashed=1;" edge="1" parent="1" source="Yh32-tH8GUVyFst3ZP8g-115" target="VgVpmV9j_B4Aruj4bug5-1">
+        <mxCell id="VgVpmV9j_B4Aruj4bug5-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeColor=#FF8000;strokeWidth=7;dashed=1;" parent="1" source="Yh32-tH8GUVyFst3ZP8g-115" target="VgVpmV9j_B4Aruj4bug5-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-115" value="网络层&lt;br&gt;IP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=36;" parent="1" vertex="1">
@@ -383,7 +383,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-117" value="&lt;font color=&quot;#000000&quot;&gt;链路层&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=36;fontColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="220" y="-550" width="120" height="50" as="geometry" />
+          <mxGeometry x="220" y="-400" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-119" value="&lt;font color=&quot;#000000&quot;&gt;物理层&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=36;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="220" y="-330" width="120" height="50" as="geometry" />
@@ -401,7 +401,7 @@
           <mxGeometry x="1360" y="-730" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-129" value="&lt;font color=&quot;#666666&quot;&gt;链路层&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=36;fontColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="-550" width="120" height="50" as="geometry" />
+          <mxGeometry x="1360" y="-390" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-130" value="&lt;font color=&quot;#666666&quot;&gt;物理层&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=36;fontColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="1360" y="-330" width="120" height="50" as="geometry" />
@@ -480,7 +480,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-153" value="链路层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="-550" width="120" height="50" as="geometry" />
+          <mxGeometry x="1000" y="-390" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-155" value="物理层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1000" y="-330" width="120" height="50" as="geometry" />
@@ -538,6 +538,9 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1419" y="-560" as="sourcePoint" />
             <mxPoint x="1419" y="-630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1419" y="-390" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Yh32-tH8GUVyFst3ZP8g-176" value="" style="endArrow=classic;html=1;rounded=1;fontSize=36;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" parent="1" edge="1">
@@ -660,11 +663,17 @@
         <mxCell id="GzYbxK6ZtIsIhXVcGywI-18" value="MSL：Maximum Segment Lifetime&lt;br&gt;最长报文段寿命" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;fontSize=24;gradientColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="429" y="270" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VgVpmV9j_B4Aruj4bug5-1" value="&lt;font style=&quot;font-size: 24px&quot; color=&quot;#ff8000&quot;&gt;IP 提供的是一种不可靠服务，&lt;br&gt;只负责尽快把源结点送到目标结点&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VgVpmV9j_B4Aruj4bug5-1" value="&lt;font style=&quot;font-size: 24px&quot; color=&quot;#ff8000&quot;&gt;IP 提供的是一种不可靠服务，&lt;br&gt;只负责尽快把源结点送到目标结点&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-400" y="-235" width="560" height="225" as="geometry" />
         </mxCell>
-        <mxCell id="VgVpmV9j_B4Aruj4bug5-3" value="&lt;span style=&quot;color: rgb(0 , 127 , 255) ; font-size: 24px&quot;&gt;TCP 在不可靠的IP传输上提供了&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 127 , 255) ; font-size: 24px&quot;&gt;一个可靠的传输层。&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;为了提供这种可靠的服务，&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;TCP采用了超时重传、发 送和接收端到端的确认分组等机制&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=36;fontColor=#ffffff;strokeColor=#B20000;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="VgVpmV9j_B4Aruj4bug5-3" value="&lt;span style=&quot;color: rgb(0 , 127 , 255) ; font-size: 24px&quot;&gt;TCP 在不可靠的IP传输上提供了&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 127 , 255) ; font-size: 24px&quot;&gt;一个可靠的传输层。&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;为了提供这种可靠的服务，&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;TCP采用了超时重传、发 送和接收端到端的确认分组等机制&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=36;fontColor=#ffffff;strokeColor=#B20000;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="-590" y="-490" width="390" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="t19QWfj1Syl6OGrbmtJl-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=4;strokeColor=#00FFFF;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-460" width="1460" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="t19QWfj1Syl6OGrbmtJl-7" value="&lt;font style=&quot;font-size: 36px&quot; color=&quot;#007fff&quot;&gt;数据链路层&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="754" y="-470" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
